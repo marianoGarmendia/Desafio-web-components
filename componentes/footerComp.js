@@ -23,7 +23,7 @@ function footerComp(el) {
         </div>
       </div>
       <div class="footer-iconos-redes">
-        <a href="">
+        <a href="https://www.linkedin.com/in/mariano-garmendia-dev/" target="_blank" >
           <div class="icono-redes-container-img linkedin">
             <img
               src="img/linkedin-svgrepo-com (1) 1.png"
