@@ -1,0 +1,96 @@
+.seccion-servicios-trabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/backgroundServices.png");
+
+  /* justify-content: center; */
+}
+
+.servicios-trabajos-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  /* margin: 48px 0px; */
+  margin-bottom: 70px;
+  /* height: 100vh; */
+}
+
+@media (min-width: 960px) {
+  .servicios-trabajos-container {
+    flex-direction: row;
+    column-gap: 48px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+.card-servicios-trabajos {
+  display: flex;
+  flex-direction: column;
+  padding: 42px 10px;
+  width: 324px;
+  height: 415px;
+  /* height: auto; */
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-servicios-trabajos::after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(2px);
+  border-radius: 16px;
+}
+
+.ver-mas {
+  position: absolute;
+  display: none;
+  bottom: 15px;
+}
+
+.ver-menos {
+  display: none;
+  position: absolute;
+  bottom: 15px;
+}
+
+.card-servicios-trabajos__img-container,
+.card-servicios-trabajos__descripcion {
+  width: 265px;
+}
+
+.card-servicios-trabajos__img-container {
+  height: 176px;
+}
+
+.card-servicios-trabajos__descripcion {
+  overflow: hidden;
+}
+
+.card-servicios-trabajos__img {
+  width: 100%;
+  height: 100%;
+  /* align-self: stretch; */
+}
+
+.seccion-servicios-trabajos__title {
+  margin: 84px 0px;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.texto-celeste {
+  color: #00adb5;
+}

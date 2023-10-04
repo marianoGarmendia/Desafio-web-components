@@ -1,0 +1,135 @@
+.header {
+  background-color: #13171c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 24px 0px 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__menu {
+  display: none;
+}
+
+.menu-hamburguesa {
+  width: 40px;
+  height: 40px;
+}
+
+.abre-ventana {
+  width: 100%;
+}
+
+.menu-flotante {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  transform: translate(0%, -0%);
+  /* row-gap: 20px; */
+  display: none;
+  animation: aparecer 0.5s ease-in-out forwards;
+}
+
+.desaparecer {
+  animation: desaparecer 0.5s ease-in-out forwards;
+}
+
+@keyframes desaparecer {
+  0% {
+    transform: translate(0%, -0%) scale(1);
+    border-radius: 0%;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    transform: translate(100%, -100%) scale(0);
+    border-radius: 100%;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    transform: translate(100%, -100%) scale(0);
+    border-radius: 100%;
+  }
+
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    transform: translate(0%, -0%) scale(1);
+    border-radius: 0%;
+  }
+}
+
+.menu-flotante__enlace {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96px;
+  text-decoration: none;
+  color: white;
+}
+
+.cierra-ventana {
+  /* display: none; */
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+  right: 25px;
+}
+
+.img-close {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .header {
+    padding: 37px 82px;
+  }
+  .header__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 42px;
+  }
+  .menu-hamburguesa {
+    display: none;
+  }
+}
+
+.header__menu-items__enlaces {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-container {
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  /* opacity: 0.5; */
+  border-radius: 50%;
+}
+
+.img-logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+}

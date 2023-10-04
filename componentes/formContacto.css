@@ -1,0 +1,132 @@
+.contacto-container {
+  background-color: #13171c;
+  /* margin-top: 80px; */
+  height: calc(100vh + 137px);
+  /* margin: 100px 0px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto-titulo {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+}
+
+.form-contacto,
+.form-grupo {
+  display: flex;
+  flex-direction: column;
+}
+/* .boton-contacto > img {
+  width: 24px;
+  height: 24px;
+} */
+
+@media (min-width: 800px) {
+  .contacto-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    /* margin: 200px 0px; */
+  }
+  .form-container {
+    width: 100%;
+  }
+
+  .form-container > div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  .contacto-titulo {
+    align-self: flex-start;
+    margin: 0;
+  }
+  /* display grid al formulario */
+  .form-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+  .campo-mensaje {
+    grid-column: 1 / span 2;
+  }
+
+  .button-container {
+    width: 231px;
+  }
+}
+
+.boton-contacto > img {
+  align-self: flex-end;
+}
+.form-contacto {
+  row-gap: 30px;
+}
+
+.input-contacto {
+  border: none;
+  padding: 16px 0px 16px 24px;
+  background-color: rgba(57, 62, 70, 0.5);
+  border-radius: 16px;
+  color: rgba(238, 238, 238, 0.5);
+}
+
+.form-grupo {
+  row-gap: 10px;
+}
+
+.label-contacto,
+.label-contacto::placeholder {
+  font-family: Poppins;
+  /* font-size: 18px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.boton-contacto {
+  width: 100%;
+  border-radius: 24px;
+  padding: 10px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #00adb5;
+  border: none;
+  height: 55px;
+  column-gap: 10px;
+}
+
+.button-container {
+  display: flex;
+}
+
+/* Mensaje de exito en el envio del form */
+.mensaje-exitoso {
+  background-color: rgba(44, 247, 105, 0.61);
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+  align-self: center;
+  /* width: 100%; */
+  position: absolute;
+  /* bottom: 10; */
+  /* right: ; */
+}

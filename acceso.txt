@@ -1,0 +1,26 @@
+// Space id
+k9j2sdo2aeeq
+
+// acces token
+8Mme-T5pIEDcFG_FUxpmvAcB8FQSGZolK2H3ZKbfS-0
+
+// nombre del Space
+desafio
+
+// enviroment id
+master
+
+// Entry id
+3M2re1dsrH6EUPwXPO7r6S
+
+ https://cdn.contentful.com/spaces/k9j2sdo2aeeq/environments/master/entries/3wdGwh3d7Wn8zOO7ZaNpne?access_token=8Mme-T5pIEDcFG_FUxpmvAcB8FQSGZolK2H3ZKbfS-0
+
+
+  https://cdn.contentful.com/spaces/k9j2sdo2aeeq/environments/master/entries?access_token=8Mme-T5pIEDcFG_FUxpmvAcB8FQSGZolK2H3ZKbfS-0
+
+
+  // Una sola Entry (portfolio-presentacion)
+  // https://cdn.contentful.com/spaces/k9j2sdo2aeeq/environments/master/entries/gvpO1cVcwOs6IWXv3NzyA?access_token=8Mme-T5pIEDcFG_FUxpmvAcB8FQSGZolK2H3ZKbfS-0
+
+  // traigo la asset de portfolio-presentacion con el id de la asset
+   https://cdn.contentful.com/spaces/k9j2sdo2aeeq/environments/master/assets/"4rZws8SerXekJ8Wzz2KMGT"?access_token=8Mme-T5pIEDcFG_FUxpmvAcB8FQSGZolK2H3ZKbfS-0
