@@ -16,7 +16,7 @@ function headerComponent(el, imgHome, page) {
       </a>
       </div>
       <div class="menu-hamburguesa">
-         <img class="abre-ventana" src="/img/menu-svgrepo-com 1 (1).png" alt="" />
+         <img class="abre-ventana" src="img/menu-svgrepo-com 1 (1).png" alt="" />
      </div>
       <div class="header__menu">
         <div class="header__menu-items">
@@ -38,7 +38,7 @@ function headerComponent(el, imgHome, page) {
     </header>
     <div class="menu-flotante">
     <div class="cierra-ventana">
-        <img class="img-close" src="/img/close-svgrepo-com (1) 1.png" alt="" />
+        <img class="img-close" src="img/close-svgrepo-com (1) 1.png" alt="" />
     </div>
     <div class="menu-flotante__enlace-container">
         <a href="./index.html" class="menu-flotante__enlace" id="enlace-home">Home</a>
