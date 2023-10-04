@@ -41,16 +41,16 @@ function headerComponent(el, imgHome, page) {
         <img class="img-close" src="/img/close-svgrepo-com (1) 1.png" alt="" />
     </div>
     <div class="menu-flotante__enlace-container">
-        <a href="index.html" class="menu-flotante__enlace" id="enlace-home">Home</a>
+        <a href="./index.html" class="menu-flotante__enlace" id="enlace-home">Home</a>
     </div>
 
     <div class="menu-flotante__enlace-container">
-        <a href="portfolio.html" class="menu-flotante__enlace"  id="enlace-portfolio" >Portfolio</a>
+        <a href="./portfolio.html" class="menu-flotante__enlace"  id="enlace-portfolio" >Portfolio</a>
     </div>
     <div class="menu-flotante__enlace-container">
-        <a href="servicios.html" class="menu-flotante__enlace" id="enlace-servicios" >Servicios</a>
+        <a href="./servicios.html" class="menu-flotante__enlace" id="enlace-servicios" >Servicios</a>
     </div><div class="menu-flotante__enlace-container">
-        <a href="contacto.html" class="menu-flotante__enlace" id="enlace-contacto">Contacto</a>
+        <a href="./contacto.html" class="menu-flotante__enlace" id="enlace-contacto">Contacto</a>
     </div>
 </div>
     
