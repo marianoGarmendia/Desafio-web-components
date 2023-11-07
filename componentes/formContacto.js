@@ -10,7 +10,7 @@ function contactoComponent(el) {
           <input
             type="text"
             class="input-contacto"
-            name="nombre"
+            name="name"
             id=""
             placeholder="Tu nombre"
           />
@@ -60,7 +60,9 @@ function contactoComponent(el) {
       const formData = new FormData(e.target);
       console.log(formData);
       const data = formData.entries();
+      console.log(data);
       const datos = Object.fromEntries(data);
+      console.log(datos);
 
       e.target.reset();
 

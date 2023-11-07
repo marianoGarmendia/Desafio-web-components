@@ -7,7 +7,7 @@
   background-color: #13171c;
   /* height: 100vh; */
   padding: 0px 50px;
-  height: 100vh;
+  height: calc(100vh + 90px);
 }
 
 .home__image-container {
@@ -36,7 +36,7 @@
 @media (min-width: 969px) {
   .home {
     background-color: #13171c;
-    height: calc(100vh - 132px);
+    height: calc(100vh + 100px);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
